@@ -18,7 +18,7 @@ set wildmenu
 :syntax on
 
 " Default font
-:set guifont=Consolas:h20
+:set guifont=Consolas:h14
 
 "! Show whitespace chars (apart from eol)
 :set listchars=tab:>~,trail:~,extends:>,precedes:<,space:·
