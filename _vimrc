@@ -1,6 +1,10 @@
 :set nocompatible
 :filetype plugin on
 
+" unix line endings
+:set fileformat=unix
+:set fileformats=unix,dos
+
 " Turn on sub-folder file mathing
 :set path+=**
 
@@ -17,7 +21,7 @@ set wildmenu
 :set guifont=Consolas:h20
 
 "! Show whitespace chars (apart from eol)
-:set listchars=tab:>~,trail:~,extends:>,precedes:<,space:·
+:set listchars=tab:>~,trail:~,extends:>,precedes:<,space:Â·
 :set list
 
 " Show line numbers
